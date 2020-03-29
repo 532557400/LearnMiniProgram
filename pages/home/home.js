@@ -1,6 +1,9 @@
 // pages/home/home.js
 Page({
-
+  handleGetUserInfo(event){
+    console.log(event)
+  },
+  
   /**
    * 页面的初始数据
    */
